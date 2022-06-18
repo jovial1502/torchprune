@@ -8,6 +8,9 @@ from .deeplab import *
 from .cnn60k import cnn60k
 from .cnn5 import cnn5
 from .bert import bert
+from .yolov3tiny import yolov3tiny
+from .yolov3tiny2 import yolov3tiny2
+
 
 # import cifar nets
 from ..external.cnn.models.cifar import *
