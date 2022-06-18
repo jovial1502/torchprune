@@ -609,4 +609,4 @@ def _get_full_param_path(file):
     if os.path.isfile(file_std):
         return file_std
 
-    raise FileNotFoundError("This parameter file does not exist")
+    raise FileNotFoundError(f"The parameter file {file} does not exist")
